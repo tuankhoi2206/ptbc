@@ -8,7 +8,7 @@ public class Exercise {
 
       int staircaseSize = sc.nextInt();
 
-      if (staircaseSize < 0 || staircaseSize > 100) {
+      if (staircaseSize <= 0 || staircaseSize > 100) {
          throw new IllegalArgumentException("Value must be from 0 to 100");
       }
 
